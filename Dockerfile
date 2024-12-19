@@ -2,4 +2,6 @@ FROM node
 
 WORKDIR /app
 
-COPY . /app
+COPY . .
+
+CMD node index.js
